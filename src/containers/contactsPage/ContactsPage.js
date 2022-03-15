@@ -53,7 +53,7 @@ useEffect(()=>{
       <section>
         <h2>
           Add Contact
-          {duplicate?'- Name Already Exists':''}
+          {duplicate?'- Name Already Exists :(':''}
         </h2> 
         <ContactForm 
           name={name}
